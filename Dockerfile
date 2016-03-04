@@ -5,7 +5,7 @@ MAINTAINER Daichi Shinozaki <dsdseg@gmail.com>
 ENV BUILD_PACKAGES="curl-dev ruby-dev build-base git cmake bash" \
     DEV_PACKAGES="zlib-dev libxml2-dev libxslt-dev tzdata yaml-dev postgresql-dev libffi-dev libc-dev" \
     RUBY_PACKAGES="ruby ruby-io-console ruby-json yaml nodejs" \
-    RAILS_VERSION="5.0.0beta2"
+    RAILS_VERSION="5.0.0beta3"
 
 RUN \ 
  apk --no-cache add $BUILD_PACKAGES $RUBY_PACKAGES $DEV_PACKAGES && \
